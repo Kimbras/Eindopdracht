@@ -10,7 +10,7 @@ ul{
     padding:0;
     margin: 0;
     display: flex;
-    justify-content:center;
+    justify-content:right;
     z-index: 100;
 }
 a:hover{
@@ -31,7 +31,7 @@ header ul il a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 80%;
+    padding-bottom: 52%;
     
 }
 
@@ -41,20 +41,21 @@ img{
 
 p{
     font-weight: 100;
+    margin-bottom: 2em;
 }
 
 h2{
 font-weight: bolder;
 color: #ffa446;
-text-align: center;
+font-size: 4em;
 }
 
 h1{
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 3em;
     color: #ffa446;
     text-align: center;
-    margin: 20px;
+    margin: 1em;
     }
 
 *{
@@ -66,41 +67,78 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .flex-container{
-width: 100;
 display: flex;
-flex-direction: row;
-}
-
-.flex-box{
-width: 40%;
-margin: 1em;
 align-items: center;
 }
 
-.tekstbox{
-    width: 40%;
-    margin: 1em;
-    text-align:left;
-    align-items: center;
-    }
+.flex-box{
+width: 50em;
+align-items: center;
+}
+
+.tekstlinks{
+    width: 50em;
+    margin-left: 10em;
+    margin-right: 5em;
+
+}
+.tekstrechts{
+width: 50em;
+    margin-right: 10em;
+    margin-left: 5em;
+}
 
 .blok1{
      display: flex;
-     flex-direction: row;
-    justify-content: space-evenly;
+     align-items: center;
     background-color: rgb(255, 226, 159);
       }
 
+.fotorechts{
+        float: right;
+    }
+ section{
+    margin-bottom: 2em;
+ }
+
+
 .rijen{
     margin: 1em;
-    width: 50em;
+    width: 40em;
 }
 
+
 .blok1 img{
-   width: 30em; 
+   width: 35em; 
 }
 
 .flex-box img{
-    width: 30em;
+    width: 35em;
 }
 
+.inleiding{
+margin: 0px 90px 60px;
+}
+
+
+.button{
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 2em;
+    color:black;
+    border: 2px solid #e19447;
+    background-color: #e19447;
+    border-radius: 3em;
+    box-shadow: 0 0.4em 1em -0.5em #000;
+  }
+
+  .button:hover {
+    background-color: #ffa446;
+    border: 2px solid #ffa446;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0.7em 1em -0.5em #000;
+  }
