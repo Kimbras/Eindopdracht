@@ -19,7 +19,7 @@ a:hover{
 }
 
 header ul il a{
-    font-size: 18px;
+    font-size: 1em;
     color: #fff;
     margin-left: 60px;
     font-weight: 500;
@@ -28,11 +28,11 @@ header ul il a{
 
 #Home{
     background-image: url("../Links/Homepagina.jpg");
-    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-bottom: 80%;
+    
 }
 
 img{
@@ -51,7 +51,7 @@ text-align: center;
 
 h1{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 2em;
     color: #ffa446;
     text-align: center;
     margin: 20px;
@@ -67,30 +67,24 @@ font-family: Arial, Helvetica, sans-serif;
 
 .flex-container{
 width: 100;
-height: auto;
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
 }
 
 .flex-box{
-width: 450px;
-height: 400px;
-margin: 20px;
+width: 40%;
+margin: 1em;
 align-items: center;
 }
 
 .tekstbox{
-    width: 450px;
-    height: 400px;
-    margin: 20px;
+    width: 40%;
+    margin: 1em;
     text-align:left;
     align-items: center;
-    justify-content: space-evenly;
     }
 
 .blok1{
-     height: auto;
      display: flex;
      flex-direction: row;
     justify-content: space-evenly;
@@ -98,16 +92,15 @@ align-items: center;
       }
 
 .rijen{
-    width: 700px;
-    height: 600px;
-    margin: 20px;
+    margin: 1em;
+    width: 50em;
 }
 
 .blok1 img{
-   width: 400px; 
+   width: 30em; 
 }
 
 .flex-box img{
-    width: 400px;
+    width: 30em;
 }
 
