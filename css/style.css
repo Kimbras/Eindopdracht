@@ -107,6 +107,7 @@ width: 50em;
     }
  section{
     margin-bottom: 2em;
+    justify-content: center;
  }
 
 
@@ -159,8 +160,8 @@ margin-right: 20%;
   .tiktok-embed{
     max-width: 605px;
     min-width: 325px;
-
   }
+
   .gecentreerd{
     text-align: center;
   }
