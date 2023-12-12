@@ -121,6 +121,15 @@ width: 50em;
     width: 30em;
     align-items: center;
 }
+.restaurants a{
+    text-decoration: none;
+    color: black;
+}
+
+.restaurants a:hover{
+    text-decoration: none;
+    color:#ffa446;
+}
 
 .blok1 img{
    width: 35em; 
@@ -192,6 +201,12 @@ margin: 0;
     text-decoration: none;
     color: #fff;
 }
+
+.footerhoofd a:hover{
+    text-decoration: none;
+    color:#ffa446;
+}
+
 .footer{   
     color: white;
     padding: 40px 100px; 
