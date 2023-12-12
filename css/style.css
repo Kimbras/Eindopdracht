@@ -35,8 +35,8 @@ header ul il a{
     
 }
 
-img{
-    max-width: 100%;
+img, video{
+     max-width: 100%; 
 }
 
 p{
@@ -171,4 +171,45 @@ margin-right: 20%;
 
   .navigatiefoto{
     width: 2em;
+}
+
+.tekstlinks2{
+    width: 20em;
+    margin-left: 10em;
+    margin-right: 5em;
+
+}
+
+.footerhoofd{
+ background-color:black;  
+ bottom: -10%;
+ display: flex;
+align-items: center;
+margin: 0;
+
+}
+.footer{   
+    color: white;
+    padding: 40px 100px; 
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: #ffa446;
+    margin: 0.3em;
+    }
+
+.footerbrood{
+    font-size: 0.8em;
+    margin: 0.5em;
+}
+.video video,
+.video img {
+height: 20em;
+margin:2em;
+}
+
+.marginp{
+    margin-bottom: 4.5em;;
 }
