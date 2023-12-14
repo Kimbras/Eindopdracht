@@ -12,6 +12,7 @@ ul{
     display: flex;
     justify-content:right;
     z-index: 100;
+    list-style: none;
     }
 
 a:hover{
@@ -19,7 +20,7 @@ a:hover{
     color: #ffa446;
     }
 
-header ul il a{
+header ul li a{
     font-size: 1em;
     color: #fff;
     margin-left: 60px;
