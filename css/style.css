@@ -49,6 +49,11 @@ h2{
     font-weight: bolder;
     color: #ffa446;
     font-size: 4em;
+    transition: all 350ms ease;
+    }
+    
+h2:hover{
+    transform: scale(1.1);
     }
 
 h3{
