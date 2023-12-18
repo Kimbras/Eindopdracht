@@ -53,7 +53,6 @@ h2{
     animation-name: bewegen;
     position: relative;
     animation-iteration-count: 3;
-    
     }
     
 @keyframes bewegen{
@@ -63,6 +62,7 @@ h2{
 75% {left: 10px;}
 100% {left:0px;}
 }
+
 h3{
     font-weight: bolder;
     color: #ffa446;
